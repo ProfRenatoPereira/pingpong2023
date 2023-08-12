@@ -274,7 +274,7 @@ function incluiPlacar(){
   fill(color(random(0, 256), random(0, 256), random(0, 256)));
   rect(0.5*width, 14, 100, 20);
   fill(255);
-  text(fullscreen, 0.47*width, 30);
+  text(Tela Cheia, 0.47*width, 30);
     }
 
 function marcaPonto(){
