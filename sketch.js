@@ -150,7 +150,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(0.95*displayWidth, 0.9*displayHeight);
+  createCanvas(0.95*displayWidth, 0.8*displayHeight);
   trilha.loop();
   for (var i = 0; i < 1000; i++) {
 		stars[i] = new Star();
