@@ -135,6 +135,7 @@ let colidiu = false;
 //placar do jogo
 let meusPontos = 0;
 let pontosDoOponente= 0;
+let telaCheia = Tela Cheia;
 
 //sons do jogo
 let rauqetada;
@@ -274,7 +275,7 @@ function incluiPlacar(){
   fill(color(random(0, 256), random(0, 256), random(0, 256)));
   rect(0.5*width, 14, 100, 20);
   fill(255);
-  text(Tela Cheia, 0.47*width, 30);
+  text(telaCheia, 0.47*width, 30);
     }
 
 function marcaPonto(){
