@@ -283,7 +283,7 @@ function marcaPonto(){
 
 
 function mousePressed() {
-  if (mouseX > 0 && mouseX < displayWidth && mouseY > 0 && mouseY < 0.4*displayHeight) {
+  if (mouseX > 0 && mouseX < displayWidth && mouseY > 0 && mouseY < 0.2*displayHeight) {
     let fs = fullscreen();
     fullscreen(!fs);
 }
