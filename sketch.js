@@ -270,11 +270,10 @@ function incluiPlacar(){
   rect(0.9*width, 14, 40, 20);
   fill(255);
   text(pontosDoOponente, 0.917*width, 30);
-
+  fill(color(255, 140, 0));
+  rect(0.4*width, 14, 120, 20);
   fill(color(random(0, 256), random(0, 256), random(0, 256)));
-  rect(0.5*width, 14, 100, 20);
-  fill(255);
-  text('Tela Cheia', 0.47*width, 30);
+  text('Tela Cheia', 0.57*width, 30);
     }
 
 function marcaPonto(){
