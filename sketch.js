@@ -271,7 +271,7 @@ function incluiPlacar(){
   fill(255);
   text(pontosDoOponente, 0.917*width, 30);
   fill(color(random(0, 256), random(0, 256), random(0, 256)));
-  text('→TELA CHEIA←', 0.45*width, 30);
+  text('→ TELA CHEIA ←', 0.5*width, 50);
     }
 
 function marcaPonto(){
